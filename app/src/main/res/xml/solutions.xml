@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<solutions>
+    <test id="test1" title="Test 1">
+        <question id="1" solution="A">
+            This is the solution text to Question 1, Test 1
+        </question>
+        <question id="2" solution="A">
+            This is the solution text to Question 2, Test 1
+        </question>
+        <question id="3" solution="A">
+            This is the solution text to Question 3, Test 1
+        </question>
+        <question id="4" solution="B">
+            This is the solution text to Question 4, Test 1
+        </question>
+        <question id="5" solution="B">
+            This is the solution text to Question 5, Test 1
+        </question>
+        <question id="6" solution="B">
+            This is the solution text to Question 6, Test 1
+        </question>
+        <question id="7" solution="C">
+            This is the solution text to Question 7, Test 1
+        </question>
+        <question id="8" solution="C">
+            This is the solution text to Question 8, Test 1
+        </question>
+        <question id="9" solution="D">
+            This is the solution text to Question 9, Test 1
+        </question>
+        <question id="10" solution="D">
+            This is the solution text to Question 10, Test 1
+        </question>
+    </test>
+    <test id="test2" title="Test 2">
+        <question id="1" solution="D">
+            This is the solution text to Question 1, Test 2
+        </question>
+        <question id="2" solution="D">
+            This is the solution text to Question 2, Test 2
+        </question>
+        <question id="3" solution="B">
+            This is the solution text to Question 3, Test 2
+        </question>
+        <question id="4" solution="E">
+            This is the solution text to Question 4, Test 2
+        </question>
+        <question id="5" solution="E">
+            This is the solution text to Question 5, Test 2
+        </question>
+        <question id="6" solution="E">
+            This is the solution text to Question 6, Test 2
+        </question>
+        <question id="7" solution="E">
+            This is the solution text to Question 7, Test 2
+        </question>
+        <question id="8" solution="E">
+            This is the solution text to Question 8, Test 2
+        </question>
+        <question id="9" solution="E">
+            This is the solution text to Question 9, Test 2
+        </question>
+        <question id="10" solution="E">
+            This is the solution text to Question 10, Test 2
+        </question>
+    </test>
+    <test id="test3" title="Test 3">
+        <question id="1" solution="B">
+            This is the solution text to Question 1, Test 3
+        </question>
+        <question id="2" solution="A">
+            This is the solution text to Question 2, Test 3
+        </question>
+        <question id="3" solution="E">
+            This is the solution text to Question 3, Test 3
+        </question>
+        <question id="4" solution="E">
+            This is the solution text to Question 4, Test 3
+        </question>
+        <question id="5" solution="A">
+            This is the solution text to Question 5, Test 3
+        </question>
+        <question id="6" solution="B">
+            This is the solution text to Question 6, Test 3
+        </question>
+        <question id="7" solution="E">
+            This is the solution text to Question 7, Test 3
+        </question>
+        <question id="8" solution="E">
+            This is the solution text to Question 8, Test 3
+        </question>
+        <question id="9" solution="B">
+            This is the solution text to Question 9, Test 3
+        </question>
+        <question id="10" solution="C">
+            This is the solution text to Question 10, Test 3
+        </question>
+    </test>
+    <test id="test4" title="Test 4">
+        <question id="1" solution="B">
+            This is the solution text to Question 1, Test 4
+        </question>
+        <question id="2" solution="A">
+            This is the solution text to Question 2, Test 4
+        </question>
+        <question id="3" solution="E">
+            This is the solution text to Question 3, Test 4
+        </question>
+        <question id="4" solution="E">
+            This is the solution text to Question 4, Test 4
+        </question>
+        <question id="5" solution="A">
+            This is the solution text to Question 5, Test 4
+        </question>
+        <question id="6" solution="B">
+            This is the solution text to Question 6, Test 4
+        </question>
+        <question id="7" solution="E">
+            This is the solution text to Question 7, Test 4
+        </question>
+        <question id="8" solution="E">
+            This is the solution text to Question 8, Test 4
+        </question>
+        <question id="9" solution="E">
+            This is the solution text to Question 9, Test 4
+        </question>
+        <question id="10" solution="E">
+            This is the solution text to Question 10, Test 4
+        </question>
+    </test>
+    <test id="test5" title="Test 5">
+        <question id="1" solution="B">
+            This is the solution text to Question 1, Test 5
+        </question>
+        <question id="2" solution="A">
+            This is the solution text to Question 2, Test 5
+        </question>
+        <question id="3" solution="E">
+            This is the solution text to Question 3, Test 5
+        </question>
+        <question id="4" solution="E">
+            This is the solution text to Question 4, Test 5
+        </question>
+        <question id="5" solution="A">
+            This is the solution text to Question 5, Test 5
+        </question>
+        <question id="6" solution="B">
+            This is the solution text to Question 6, Test 5
+        </question>
+        <question id="7" solution="E">
+            This is the solution text to Question 7, Test 5
+        </question>
+        <question id="8" solution="E">
+            This is the solution text to Question 8, Test 5
+        </question>
+        <question id="9" solution="E">
+            This is the solution text to Question 9, Test 5
+        </question>
+        <question id="10" solution="E">
+            This is the solution text to Question 10, Test 5
+        </question>
+    </test>
+    <test id="test6" title="Test 6">
+        <question id="1" solution="B">
+            This is the solution text to Question 1, Test 6
+        </question>
+        <question id="2" solution="A">
+            This is the solution text to Question 2, Test 6
+        </question>
+        <question id="3" solution="E">
+            This is the solution text to Question 3, Test 6
+        </question>
+        <question id="4" solution="E">
+            This is the solution text to Question 4, Test 6
+        </question>
+        <question id="5" solution="A">
+            This is the solution text to Question 5, Test 6
+        </question>
+        <question id="6" solution="B">
+            This is the solution text to Question 6, Test 6
+        </question>
+        <question id="7" solution="E">
+            This is the solution text to Question 7, Test 6
+        </question>
+        <question id="8" solution="E">
+            This is the solution text to Question 8, Test 6
+        </question>
+        <question id="9" solution="E">
+            This is the solution text to Question 9, Test 6
+        </question>
+        <question id="10" solution="E">
+            This is the solution text to Question 10, Test #
+        </question>
+    </test>
+    <test id="test7" title="Test 7">
+        <question id="1" solution="B">
+            This is the solution text to Question 1, Test 7
+        </question>
+        <question id="2" solution="A">
+            This is the solution text to Question 2, Test 7
+        </question>
+        <question id="3" solution="E">
+            This is the solution text to Question 3, Test 7
+        </question>
+        <question id="4" solution="E">
+            This is the solution text to Question 4, Test 7
+        </question>
+        <question id="5" solution="A">
+            This is the solution text to Question 5, Test 7
+        </question>
+        <question id="6" solution="B">
+            This is the solution text to Question 6, Test 7
+        </question>
+        <question id="7" solution="E">
+            This is the solution text to Question 7, Test 7
+        </question>
+        <question id="8" solution="E">
+            This is the solution text to Question 8, Test 7
+        </question>
+        <question id="9" solution="E">
+            This is the solution text to Question 9, Test 7
+        </question>
+        <question id="10" solution="E">
+            This is the solution text to Question 10, Test 7
+        </question>
+    </test>
+</solutions>
