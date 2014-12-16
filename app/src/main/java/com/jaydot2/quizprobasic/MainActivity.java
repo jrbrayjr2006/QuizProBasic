@@ -304,6 +304,11 @@ public class MainActivity extends ActionBarActivity implements OnTestSelectedLis
                                     questionOptions.add(optC);
                                     questionOptions.add(optD);
                                     questionOptions.add(optE);
+                                    myQ.setOptionA(optA);
+                                    myQ.setOptionB(optB);
+                                    myQ.setOptionC(optC);
+                                    myQ.setOptionD(optD);
+                                    myQ.setOptionE(optE);
 
                                     myQ.setQuestionOptions(questionOptions);
                                     myQ.setQuestion(_questionText);

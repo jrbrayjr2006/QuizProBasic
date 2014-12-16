@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tests>
-	<test id="test1" title="Test 1">
-	    <question id="1" solution="A">
-	        <question_text>Question 1 - Day</question_text>
+	<test id="test1" title="Illinois Drivers Test">
+	    <question id="1" solution="C">
+	        <question_text>1. What is the maximum speed limit on 4 lane highways in Illinois?</question_text>
 	        <image_loc>/res/pictures/1-1.jpg</image_loc>
-	        <option id="A" solution="false">A. Monday</option>
-	        <option id="B" solution="false">B. Tuesday</option>
-	        <option id="C" solution="false">C. Wednesday</option>
-	        <option id="D" solution="false">D. Thursday</option>
-	        <option id="E" solution="true">E. Friday</option>
+	        <option id="A" solution="false">A. 55 MPH</option>
+	        <option id="B" solution="false">B. 65 MPH</option>
+	        <option id="C" solution="false">C. 70 MPH</option>
+	        <option id="D" solution="false">D. 75 MPH</option>
+	        <option id="E" solution="true">E. 80 MPH</option>
 	    </question>
-	    <question id="2" solution="A">
-	        <question_text>2. Question 2</question_text>
+	    <question id="2" solution="D">
+	        <question_text>2. What is the penalty for being convicted of illegally passing a stopped school bus?</question_text>
 	        <image_loc>/res/pictures/1-2.jpg</image_loc>
-	        <option id="A" solution="false">A. option A</option>
-	        <option id="B" solution="false">B. option B</option>
-	        <option id="C" solution="false">C. option C</option>
-	        <option id="D" solution="false">D. option D</option>
-	        <option id="E" solution="true">E. option E</option>
+	        <option id="A" solution="false">A. 60 day suspension of driving privileges</option>
+	        <option id="B" solution="false">B. 30 day suspension of driving privileges and 10 days of community service</option>
+	        <option id="C" solution="false">C. A $30 fine and a 14 day suspension of driving privileges</option>
+	        <option id="D" solution="false">D. Driver privileges or vehicle registration suspension and a minimum $150 fine</option>
+	        <option id="E" solution="true">E. Mandatory traffic school and a $100 fine</option>
 	    </question>
 	    <question id="3" solution="A">
 	        <question_text>3. Question 3</question_text>
