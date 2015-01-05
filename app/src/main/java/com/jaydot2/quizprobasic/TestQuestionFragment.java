@@ -54,7 +54,12 @@ public class TestQuestionFragment extends Fragment {
 	//List<Question> questions;
 	
 	private TextView timerValue;
-	private TextView questionText;
+	//private TextView questionText;
+    //private TextView textViewOptionA;
+    //private TextView textViewOptionB;
+    //private TextView textViewOptionC;
+    //private TextView textViewOptionD;
+    //private TextView textViewOptionE;
 	private Button endTestButton;
 	private Button aButton;
 	private Button bButton;
@@ -95,7 +100,7 @@ public class TestQuestionFragment extends Fragment {
 		View v = inflater.inflate(R.layout.fragment_question, root, false);
 		
 		timerValue = (TextView)v.findViewById(R.id.timerTextView);
-		questionText = (TextView)v.findViewById(R.id.questionTextView);
+		//questionText = (TextView)v.findViewById(R.id.questionTextView);
 		endTestButton = (Button)v.findViewById(R.id.endTestBtn);
 		aButton = (Button)v.findViewById(R.id.buttonA);
 		bButton = (Button)v.findViewById(R.id.buttonB);
@@ -104,6 +109,13 @@ public class TestQuestionFragment extends Fragment {
 		eButton = (Button)v.findViewById(R.id.buttonE);
 		questionImageView = (ImageView)v.findViewById(R.id.questionImageView);
 		solutionButton = (Button)v.findViewById(R.id.buttonSolution);
+
+        //textViewOptionA = (TextView)v.findViewById(R.id.textViewOptionA);
+        //textViewOptionB = (TextView)v.findViewById(R.id.textViewOptionB);
+        //textViewOptionC = (TextView)v.findViewById(R.id.textViewOptionC);
+        //textViewOptionD = (TextView)v.findViewById(R.id.textViewOptionD);
+        //textViewOptionE = (TextView)v.findViewById(R.id.textViewOptionE);
+
 		
 		selectedTest = (TestObject)getArguments().getSerializable(MainActivity.TEST);
 		mTestTitle = selectedTest.getTestTitle();
@@ -114,7 +126,13 @@ public class TestQuestionFragment extends Fragment {
 		// initialize values for results
 		mNumberOfCorrectAnswers = 0;
 		
-		questionText.setText("Question " + selectedTest.getQuestions().get(0).getQuestionNumber() + "/10");
+		//questionText.setText("Question " + selectedTest.getQuestions().get(0).getQuestionNumber() + "/10 " + selectedTest.getQuestions().get(0).getQuestion());
+        //textViewOptionA.setText(selectedTest.getQuestions().get(0).getOptionA());
+        //textViewOptionB.setText(selectedTest.getQuestions().get(0).getOptionB());
+        // add conditional here in case a true of false question
+        //textViewOptionC.setText(selectedTest.getQuestions().get(0).getOptionC());
+        //textViewOptionD.setText(selectedTest.getQuestions().get(0).getOptionD());
+        //textViewOptionE.setText(selectedTest.getQuestions().get(0).getOptionE());
 		// was using myTest here 11-28-2014
 		selectedTest.setQuestions(selectedTest.getQuestions());
 		
@@ -132,6 +150,7 @@ public class TestQuestionFragment extends Fragment {
 		    	testCompleted = true;
 		    	solutionButton.setEnabled(true);
 				timer.cancel();
+                endTestAction();
 				mCallback.onEndTestClick(mNumberOfCorrectAnswers, mReviewQuestions, mTestTitle);
 				
 			}
@@ -273,7 +292,7 @@ public class TestQuestionFragment extends Fragment {
 		{
 			int t = testIndex + 1;
 			int q = currentIndex + 1;
-			String imageName = "pictures/" + t + "-" + q + ".jpg";
+			String imageName = "pictures/" + t + "-" + q + ".png";
 			Log.d(DEBUG_TAG, imageName);
 		    // get input stream
 		    InputStream ims = getActivity().getAssets().open(imageName);
@@ -281,8 +300,8 @@ public class TestQuestionFragment extends Fragment {
 		    Drawable d = Drawable.createFromStream(ims, null);
 		    // set image to ImageView
 		    questionImageView.setImageDrawable(d);
-		    questionImageView.setMinimumWidth(800);
-		    questionImageView.setMinimumHeight(500);
+		    //questionImageView.setMinimumWidth(800);
+		    //questionImageView.setMinimumHeight(500);
 		}
 		catch(IOException ex) 
 		{
@@ -439,6 +458,12 @@ public class TestQuestionFragment extends Fragment {
             currentIndex = x - 1;
             updateImage();
             String opts = selectedTest.getQuestions().get(currentIndex).getSelectedOption();
+            //textViewOptionA.setText(selectedTest.getQuestions().get(currentIndex).getOptionA());
+            //textViewOptionB.setText(selectedTest.getQuestions().get(currentIndex).getOptionB());
+            // add conditional here in case a true of false question
+            //textViewOptionC.setText(selectedTest.getQuestions().get(currentIndex).getOptionC());
+            //textViewOptionD.setText(selectedTest.getQuestions().get(currentIndex).getOptionD());
+            //textViewOptionE.setText(selectedTest.getQuestions().get(currentIndex).getOptionE());
             if((opts != null) && !opts.equals(MainActivity.DEFAULT_Z)) {
             	if(opts.equals("A")) {
             		updateButtonColor(aButton);
@@ -526,8 +551,8 @@ public class TestQuestionFragment extends Fragment {
         			Toast.makeText(getActivity(), message, Toast.LENGTH_SHORT).show();
             	}
             }
-            String questionTitle = "Question " + x + "/10";
-            questionText.setText(questionTitle);
+            String questionTitle = "Question "  + selectedTest.getQuestions().get(currentIndex).getQuestion();
+            //questionText.setText(questionTitle);
             return true;
         }
     }

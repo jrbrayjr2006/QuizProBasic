@@ -9,7 +9,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="2dp"
+        android:layout_marginTop="10dp"
         android:layout_marginLeft="5dp"
         android:gravity="center_vertical|center_horizontal|left"
         android:text="@string/end_test" />
@@ -23,7 +23,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="10dp"
         android:orientation="horizontal" >
-		
+
         <Button
             android:id="@+id/buttonSolution"
             style="?android:attr/buttonBarButtonStyle"
@@ -32,7 +32,7 @@
             android:layout_weight="1"
             android:enabled="false"
             android:text="@string/label_solution" />
-        
+
         <Button
             android:id="@+id/buttonA"
             style="?android:attr/buttonBarButtonStyle"
@@ -64,7 +64,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/label_d" />
-        
+
         <Button
             android:id="@+id/buttonE"
             style="?android:attr/buttonBarButtonStyle"
@@ -77,39 +77,28 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/questionTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/llOptionList"
-        android:layout_alignParentRight="true"
-        android:text="@string/question"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_toRightOf="@+id/endTestBtn"
-        android:layout_toEndOf="@+id/endTestBtn"
-        android:layout_alignBottom="@+id/endTestBtn"
-        android:layout_alignTop="@+id/endTestBtn" />
-
-    <TextView
         android:id="@+id/timerTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/linearLayout1"
         android:layout_alignParentLeft="true"
-        android:layout_alignRight="@+id/questionTextView"
         android:layout_marginLeft="5dp"
         android:text="@string/timer_default"
         android:textAppearance="?android:attr/textAppearanceLarge" />
-    <!--
+
     <ImageView
         android:id="@+id/questionImageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_above="@+id/timerTextView"
         android:contentDescription="@string/question_image"
         android:src="@drawable/sample1"
-        android:layout_above="@+id/timerTextView"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
-    -->
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/endTestBtn"
+        android:layout_toRightOf="@+id/endTestBtn"
+        android:layout_toEndOf="@+id/endTestBtn" />
+    <!--
     <LinearLayout
         android:id="@+id/llOptionList"
         android:orientation="vertical"
@@ -142,5 +131,5 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content" />
     </LinearLayout>
-
+    -->
 </RelativeLayout>
