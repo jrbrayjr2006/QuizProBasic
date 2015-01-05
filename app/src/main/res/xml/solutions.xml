@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <solutions>
     <test id="test1" title="Illinois Drivers Test">
-        <question id="1" solution="C">
-            The maximum speed limit on a 4 lane highway or higher in Illinois is 70 MPH.
+        <question id="1" solution="B">
+            Effective January 1, 2014, cellphone use while driving is prohibited, unless using a hands-free device.
         </question>
-        <question id="2" solution="D">
-            Your license or vehicle registration will be suspended for three months if you are convicted of illegally passing a stopped school bus.
+        <question id="2" solution="A">
+            Illinois law requires all drivers and passengers (front and back seat) age 8 and older to wear safety belts even if the vehicle is equipped with air bags.
         </question>
-        <question id="3" solution="A">
-            This is the solution text to Question 3, Test 1
+        <question id="3" solution="E">
+            It is recommended that children age 12 and younger be properly secured in the back seat.
         </question>
-        <question id="4" solution="B">
-            This is the solution text to Question 4, Test 1
+        <question id="4" solution="C">
+            Unless otherwise posted interstates, toll ways, freeways and some four-lane highways have a speed limit of 70 mph.
         </question>
         <question id="5" solution="B">
-            This is the solution text to Question 5, Test 1
+            Unless otherwise posted in cities and towns the speed limit is 30 mph.
         </question>
-        <question id="6" solution="B">
-            This is the solution text to Question 6, Test 1
+        <question id="6" solution="D">
+            Illinois law requires motorists to immediately pull to the right side of the road and allow the emergency vehicle to pass.
         </question>
-        <question id="7" solution="C">
-            This is the solution text to Question 7, Test 1
+        <question id="7" solution="E">
+            Slow down, discontinue wireless/cellphone use (unless using a hands-free device that may include the use of a single-sided headset), yield to any authorized vehicles or workers in the area, and change to a lane away from the workers when possible, and proceed with caution.
         </question>
-        <question id="8" solution="C">
-            This is the solution text to Question 8, Test 1
+        <question id="8" solution="D">
+            When making a right turn on a red light after a complete stop.  When two vehicles on different roadways reach an uncontrolled intersection at the same time. The vehicle on the left should yield to the vehicle on the right.  When approaching a YIELD sign. You should slow down or stop to avoid a crash.
         </question>
-        <question id="9" solution="D">
-            This is the solution text to Question 9, Test 1
+        <question id="9" solution="A">
+            A driver must yield to a pedestrian when making a turn at any intersection.
         </question>
-        <question id="10" solution="D">
-            This is the solution text to Question 10, Test 1
+        <question id="10" solution="B">
+            If you are convicted of illegally passing a stopped school bus, your driver’s license or vehicle registration will be suspended for three months and you will pay a minimum $150 fine.
         </question>
     </test>
     <test id="test2" title="Test 2">
