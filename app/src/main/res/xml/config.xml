@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tests>
-	<test id="test1" title="Illinois Drivers Test">
+	<test id="test1" title="Illinois Drivers Test - Traffic Laws">
 	    <question id="1" solution="B">
 	        <question_text>1. What is the maximum speed limit on 4 lane highways in Illinois?</question_text>
 	        <image_loc>/res/pictures/1-1.jpg</image_loc>
@@ -92,8 +92,8 @@
 	        <option id="E" solution="true">E. option E</option>
 	    </question>
 	</test>
-	<test id="test2" title="Test 2">
-	    <question id="1" solution="D">
+	<test id="test2" title="Illinois Drivers Test - Sharing the Road">
+	    <question id="1" solution="A">
 	        <question_text>Question 1 when was washington born?</question_text>
 	        <image_loc>/res/pictures/2-1.jpg</image_loc>
 	        <option id="A" solution="false">A. option A</option>
@@ -111,7 +111,7 @@
 	        <option id="D" solution="false">D. option D</option>
 	        <option id="E" solution="true">E. option E</option>
 	    </question>
-	    <question id="3" solution="B">
+	    <question id="3" solution="E">
 	        <question_text>3. Question 3</question_text>
 	        <image_loc>/res/pictures/2-3.jpg</image_loc>
 	        <option id="A" solution="false">A. option A</option>
@@ -120,7 +120,7 @@
 	        <option id="D" solution="false">D. option D</option>
 	        <option id="E" solution="true">E. option E</option>
 	    </question>
-	    <question id="4" solution="E">
+	    <question id="4" solution="A">
 	        <question_text>4. Question 4</question_text>
 	        <image_loc>/res/pictures/2-4.jpg</image_loc>
 	        <option id="A" solution="false">A. option A</option>
@@ -129,7 +129,7 @@
 	        <option id="D" solution="false">D. option D</option>
 	        <option id="E" solution="true">E. option E</option>
 	    </question>
-	    <question id="5" solution="E">
+	    <question id="5" solution="B">
 	        <question_text>5. Question 5</question_text>
 	        <image_loc>/res/pictures/2-5.jpg</image_loc>
 	        <option id="A" solution="false">A. option A</option>

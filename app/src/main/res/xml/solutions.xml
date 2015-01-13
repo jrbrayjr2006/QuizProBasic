@@ -32,21 +32,21 @@
             If you are convicted of illegally passing a stopped school bus, your driver’s license or vehicle registration will be suspended for three months and you will pay a minimum $150 fine.
         </question>
     </test>
-    <test id="test2" title="Test 2">
-        <question id="1" solution="D">
-            This is the solution text to Question 1, Test 2
+    <test id="test2" title="Illinois Drivers Test">
+        <question id="1" solution="A">
+            A motorcycle rider may proceed, after yielding the right-of-way to oncoming traffic, if the light fails to turn green after waiting for at least 120 seconds.
         </question>
         <question id="2" solution="D">
-            This is the solution text to Question 2, Test 2
+            Pedestrians may not start entering the roadway. A pedestrian who has partially completed crossing during the constantly lighted WALK may continue to a sidewalk or safety island.
         </question>
-        <question id="3" solution="B">
-            This is the solution text to Question 3, Test 2
+        <question id="3" solution="E">
+            Always dim your headlights because bright lights will blind the driver of the large vehicle when they reflect off the large side mirrors.
         </question>
-        <question id="4" solution="E">
-            This is the solution text to Question 4, Test 2
+        <question id="4" solution="A">
+            Normal speeds for slow moving vehicles range from 5 to 20 miles per hour
         </question>
-        <question id="5" solution="E">
-            This is the solution text to Question 5, Test 2
+        <question id="5" solution="B">
+            More than 50% of all motorcycle collisions  occur at intersections
         </question>
         <question id="6" solution="E">
             This is the solution text to Question 6, Test 2
