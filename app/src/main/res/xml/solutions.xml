@@ -48,20 +48,25 @@
         <question id="5" solution="B">
             More than 50% of all motorcycle collisions  occur at intersections
         </question>
-        <question id="6" solution="E">
-            This is the solution text to Question 6, Test 2
+        <question id="6" solution="C">
+            When your automobile is being passed by a motorcycle, you should maintain your lane position and speed. Allow the motorcycle to complete the maneuver and assume proper lane position as quickly as possible.
         </question>
-        <question id="7" solution="E">
-            This is the solution text to Question 7, Test 2
+        <question id="7" solution="C">
+            After parking and before opening vehicle doors, a motorist should first check for bicyclists.
         </question>
-        <question id="8" solution="E">
-            This is the solution text to Question 8, Test 2
+        <question id="8" solution="A">
+            Pedestrians age 18 or older may skate on public roadways where the posted speed limit is 45 mph or less from sunrise to sunset as long as vehicular traffic is not impeded or obstructed.
         </question>
         <question id="9" solution="E">
-            This is the solution text to Question 9, Test 2
+            Drivers and parents must use care to ensure the safety of children by:
+            Watching for signs that mark special hazard areas such as school zones, bus stops, playgrounds, parks and schools.
+            Being ready to reduce speed in residential areas, school areas and places where children are most likely to be.
+            Being extremely watchful when backing in or out of a driveway when children are near.
+            Teaching children the rights and responsibilities of pedestrians at an early age.
+            Assigning play areas for children. Make sure children do not play in or near streets, driveways or other dangerous areas.
         </question>
-        <question id="10" solution="E">
-            This is the solution text to Question 10, Test 2
+        <question id="10" solution="A">
+            On public roads, joggers and walkers should try to select wide roads with good shoulders.
         </question>
     </test>
     <test id="test3" title="Test 3">
